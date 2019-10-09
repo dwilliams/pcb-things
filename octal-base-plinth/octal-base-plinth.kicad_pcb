@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 26)
+    (drawings 28)
     (tracks 0)
     (zones 0)
     (modules 14)
@@ -254,7 +254,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_Pad_Via (layer F.Cu) (tedit 56DDBCCA) (tstamp 5D9E586B)
-    (at 80 100)
+    (at 100 80)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (attr virtual)
@@ -281,7 +281,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_Pad_Via (layer F.Cu) (tedit 56DDBCCA) (tstamp 5D9E584D)
-    (at 120 100)
+    (at 100 120)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (attr virtual)
@@ -415,6 +415,10 @@
     (pad 1 thru_hole circle (at 0 0) (size 6.4 6.4) (drill 3.2) (layers *.Cu *.Mask))
   )
 
+  (gr_text KEY (at 100 130) (layer F.SilkS)
+    (effects (font (size 3 3) (thickness 0.3)))
+  )
+  (gr_line (start 100 115) (end 100 127) (layer F.SilkS) (width 0.5))
   (gr_text 8 (at 85 130) (layer F.SilkS) (tstamp 5D9E0268)
     (effects (font (size 5 5) (thickness 0.5)))
   )
