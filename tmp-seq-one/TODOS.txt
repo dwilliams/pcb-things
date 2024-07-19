@@ -1,0 +1,22 @@
+ToDos
+=====
+
+Things to Fix
+-------------
+
+All Boards:
+ - Resistors too short, make foot prints longer
+
+Control Board:
+ - U3 and C10 too close
+ - U4 and C8? too close
+ - Slight smaller holes for J11 (Power Connector)
+ - Move LED to corner and rotate so pins are vertical
+
+Step Board:
+ - Part numbers on transistors
+
+Output Board:
+
+All Panels:
+ - Jack holes need to be increase to 3/8 diameter
