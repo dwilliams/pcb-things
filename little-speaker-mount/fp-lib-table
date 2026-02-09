@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "speakers")(type "KiCad")(uri "/home/fbus/git/dwilliams/pcb-things/kicad-libs/speakers.pretty")(options "")(descr ""))
+)

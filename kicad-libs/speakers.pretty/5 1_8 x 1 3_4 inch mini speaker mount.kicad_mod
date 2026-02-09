@@ -1,0 +1,342 @@
+(footprint "5 1_8 x 1 3_4 inch mini speaker mount"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "31c45d6c-0e88-4b87-9a4f-fbd4837be872")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "5 1/8 x 1 3/4 inch mini speaker mount"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3c607c11-8963-4d02-a757-e97111029f31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc26c791-9056-43f5-9ecf-d39e754c4b42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e7834e3-7442-4d1f-b257-c98a38a403b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -22.5 60)
+		(end -22.5 -60)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "59fa02b5-5c70-4d51-b699-815c86caafa3")
+	)
+	(fp_line
+		(start -17.5 -65)
+		(end 17.5 -65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e108475b-ce61-4cc8-a1cd-8118b702ecd7")
+	)
+	(fp_line
+		(start 17.5 65)
+		(end -17.5 65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e992608-8f0a-451c-8ea4-06614deb4333")
+	)
+	(fp_line
+		(start 22.5 -60)
+		(end 22.5 60)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d06ad7ec-adbd-42e9-8014-d333c92be0a4")
+	)
+	(fp_arc
+		(start -22.5 -60)
+		(mid -21.035534 -63.535534)
+		(end -17.5 -65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ed1e0191-5144-4d20-8c80-866f3c65193d")
+	)
+	(fp_arc
+		(start -17.5 65)
+		(mid -21.035534 63.535534)
+		(end -22.5 60)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f9fa72d4-284b-479a-b723-d6721e965a0d")
+	)
+	(fp_arc
+		(start 17.5 -65)
+		(mid 21.035534 -63.535534)
+		(end 22.5 -60)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a9e899d3-77a0-4a84-b71f-795f4e3c8abc")
+	)
+	(fp_arc
+		(start 22.5 60)
+		(mid 21.035534 63.535534)
+		(end 17.5 65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c7131601-d299-4f34-8ca4-743ffc540c56")
+	)
+	(fp_line
+		(start -17.5 -5)
+		(end -17.5 -43)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5ca58981-1709-4dfe-80ca-5f8952483876")
+	)
+	(fp_line
+		(start -17.5 -5)
+		(end 17.5 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8a83379f-48d5-4a26-8adb-b339bf9741a1")
+	)
+	(fp_line
+		(start -17.5 5)
+		(end -17.5 43)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0e6c6948-8971-48d0-8428-3deee8edfbe0")
+	)
+	(fp_line
+		(start -17.5 5)
+		(end 17.5 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a318a58d-8389-405f-96bf-03ca80491fd4")
+	)
+	(fp_line
+		(start 17.5 -5)
+		(end 17.5 -43)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b1448dd6-1c49-4fd5-8253-83d2fdff9ef9")
+	)
+	(fp_line
+		(start 17.5 5)
+		(end 17.5 43)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e1880eed-964e-4259-bff8-60bde9d70ef9")
+	)
+	(fp_arc
+		(start -17.5 -43)
+		(mid 0 -60.5)
+		(end 17.5 -43)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "73c70705-14d0-4e37-b6f3-08a84fe29ce4")
+	)
+	(fp_arc
+		(start 17.5 43)
+		(mid 0 60.5)
+		(end -17.5 43)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "91825014-73c5-48a5-ab60-74bfef5ce709")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7544e90a-ef59-44e7-971e-cf6149aece8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -17.5 -60)
+		(size 8 8)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d9f83156-f18a-453f-8bb2-cc6c4177254b")
+	)
+	(pad "" np_thru_hole circle
+		(at -17.5 60)
+		(size 8 8)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "6325e1e9-f923-426a-9f10-c84faea816d2")
+	)
+	(pad "" np_thru_hole circle
+		(at 17.5 -60)
+		(size 8 8)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "75c615d8-7b96-416c-bce9-3b0097334239")
+	)
+	(pad "" np_thru_hole circle
+		(at 17.5 60)
+		(size 8 8)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b9d6a0ed-a566-48b8-9d65-a1ee3ff23bb8")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "F.Mask" "B.Cu" "B.Mask" "In1.Cu" "F.SilkS" "In2.Cu" "B.SilkS"
+			"In3.Cu" "F.Adhes" "In4.Cu" "B.Adhes" "In5.Cu" "F.Paste" "In6.Cu" "B.Paste"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "Edge.Cuts" "In12.Cu" "In13.Cu"
+			"In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu"
+			"In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu"
+			"In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(uuid "c0a4131b-84dc-4b47-84ea-321b197eba37")
+		(name "speaker_opening_one")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -17.5 -5) (xy -17.5 -50.5) (xy -7.5 -60.5) (xy 6.5 -60.5) (xy 17.5 -51.5) (xy 17.5 -5)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "F.Mask" "B.Cu" "B.Mask" "In1.Cu" "F.SilkS" "In2.Cu" "B.SilkS"
+			"In3.Cu" "F.Adhes" "In4.Cu" "B.Adhes" "In5.Cu" "F.Paste" "In6.Cu" "B.Paste"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "Edge.Cuts" "In12.Cu" "In13.Cu"
+			"In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu"
+			"In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu"
+			"In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(uuid "e1cb0a25-54d7-434e-8bca-9f720b8c0180")
+		(name "speaker_opening_teo")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 17.5 5.08287) (xy 17.5 50.58287) (xy 7.5 60.58287) (xy -6.5 60.58287) (xy -17.5 51.58287) (xy -17.5 5.08287)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
